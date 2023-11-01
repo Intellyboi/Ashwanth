@@ -6,12 +6,15 @@
   background: -webkit-linear-gradient(left, #39ccfd, #4c5bff);
   box-sizing: border-box;
   }
-  .Bars{
-  display:inline-flex;
+ .Bars{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   justify-content: space-around;
-  
-
+  color:#191c23;
+  font-size: large;
+  font-weight: bolder;
+  margin-left:7em;
   }
   
   #ml{
